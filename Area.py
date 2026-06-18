@@ -7,7 +7,7 @@
 # # to get superscript power of 2 on your num lock key and hold your alt then type 0178
 
 
-# Exercise 32 Shopping cart program
+# Exercise 2 Shopping cart program
 
 
 item = input("What do you want to buy: ")

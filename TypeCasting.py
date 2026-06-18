@@ -26,6 +26,12 @@ print(age)
 
 name = bool(name)
 print(name)
+# Original name      bool(name) result    Reason
+# "John"             True                 It is a string with text.
+# "" (empty string)  False                There is no text/data inside.
+# "0" (text zero)    True                 Any text inside quotes evaluates to True.
+# 0 (number zero)    False                Numeric zero equates to False in Python.
+
 
 name2 = ""
 print(bool(name2))

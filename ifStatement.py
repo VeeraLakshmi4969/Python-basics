@@ -31,9 +31,8 @@ else:
 
 
 user_input = input("Is item for sale? (True or False): ")
-
-# Check if the text typed is exactly "True"
-if user_input.strip() == "True":
+# .strip() removes spaces, .lower() converts "True"/"TRUE" to "true"
+if user_input.strip().lower() == "true":
     for_sale = True
 else:
     for_sale = False
@@ -42,4 +41,3 @@ if for_sale:
     print("This item is for sale")
 else:
     print("This item is not for sale")
-# strip() is used to accept true,True, TRUE and act like actual here True

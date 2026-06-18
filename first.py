@@ -1,10 +1,9 @@
 # #This is my first python
 # print("Hello World!")
 # print('I like Mixed biryani.')
-from operator import truediv
 
-#Variable = A container for a value (string, integer, float,boolean)
-# A variable behaves as if it was the value it contains
+#Variable = A container for a value (string, integer, float, boolean)
+# A variable behaves as if it was the value it`` contains
 # STRINGS
 first_name="Veera Lakshmi"
 second_name='Oleti'

@@ -2,35 +2,36 @@
 from math import floor
 from unittest import result
 
-# friends = 5
+friends = 5
 # friends = friends +1
 # friends += 1
 # friends -= 2
 # friends *= 3
 # friends /= 2
 # friends %= 2
-# friends **= 2
+# friends **= 3
 # friends = friends ** 2
-# this means power of 2
+# this (**) means power
 # print(friends)
 
 
 # Math functions
 
-# x = 3.14
-# y = -4
-# z = 5
-# result = round(x)
-# print(result)
-# absaluteVal = abs(y)
-# print(absaluteVal)
-# # absaluteVal is a distance from 0
-# print(pow(4,2))
-# print(pow(z,3))
-# print(max(x,y,z))
-# print(min(x,y,z))
-# print(floor(x))
-# it produce closest small round(down) number
+x = 3.14
+y = -4
+z = 5
+result = round(x)
+# it produce closest big (up) number
+print(result)
+absaluteVal = abs(y)
+print(absaluteVal)
+# absaluteVal is a distance from 0
+print(pow(4,2))
+print(pow(z,3))
+print(max(x,y,z))
+print(min(x,y,z))
+print(floor(x))
+# it produce closest small (down) number
 
 
 # import math
@@ -43,14 +44,15 @@ from unittest import result
 # print(math.ceil(y))
 # # ceil is used to round point up
 
-# import math
-#
-# radius = float(input("Enter radius: "))
-# # circle circumference = 2 pi r
-# result = 2 * math.pi * radius
-# print(result)
-# print(f"The circumference is: {round(result)} cm")
-# print(round(result,2))
+import math
+
+radius = float(input("Enter radius: "))
+# circle circumference = 2 pi r
+result = 2 * math.pi * radius
+print(result)
+print(f"The circumference is: {round(result)} cm²")
+print(round(result,2))
+# it will round and display 2 decimal points
 
 # import math
 #
@@ -75,3 +77,6 @@ b = float(input("Enter side B:"))
 c = pow(a,2)+pow(b,2)
 d = math.sqrt(c)
 print(f"The result is {d}")
+# There are 2 types of functions one is built in another is userdefined
+# for built in functions no need to import package
+# for user defined functions we have to use classes
