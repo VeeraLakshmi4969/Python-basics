@@ -1,7 +1,7 @@
 #  collection = single "variable " used to store multiple values
 # list = [] ordered and changeable.Duplicates OK
 # set  = {} unordered and immutablle, but Add/Remove OK. NO duplicates
-# Tuple = () ordered and unchangeable. Duplicates OK. FASTER
+# Tuple = () ordered and unchangeable. Duplicates OK. FASTER than list
 
 
 fruits = ["apple","orange","banana","goa"]
