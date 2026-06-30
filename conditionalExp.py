@@ -7,7 +7,7 @@ num = -2
 print("positive" if num>0 else "negative")
 
 num2 = 5
-result = " even " if num2 % 2 == 0 else "odd"
+result = "even" if num2 % 2 == 0 else "odd"
 print(result)   
  
 maxNum = num if num > num2 else num2

@@ -14,7 +14,7 @@ def add(*args):
         total += arg
     print()
     print(f"total = {total}")
-    
+    print(args)
 add(1,3,5,7)
 
 

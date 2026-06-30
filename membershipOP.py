@@ -25,18 +25,19 @@
      
 # # EXAMPLE 3
 
-# grade =  {"Mahadev":"A",
-#           "Nani":"B",
-#           "Srinu":"C",
-#           "Ramu":"D",
-#           "Nagur":"E",
-#           "Maha":"F"}
+grade =  {"Mahadev":"A",
+          "Nani":"B",
+          "Srinu":"C",
+          "Ramu":"D",
+          "Nagur":"E",
+          "Maha":"F"}
 
-# student = input("Enter a student name that you want to know grade : ")
+student = input("Enter a student name that you want to know grade : ").title()
 
-# if student in grade:
-#     print(grade.get(student))
-#     print(grade[student])
+if student in grade:
+    print(grade.get(student))
+    #  OR
+    print(grade[student])
 # # Square Brackets: grade[student]Requires the key to exist.
 # # Raises a KeyError if missing.
 # # Crashes your program if unhandled.

@@ -20,6 +20,7 @@ print(f"Price 2 is {price2:.1f} Rs.")
 print(f"Price 3 is {price3:.3f} Rs.")
 # this 2f 1f 3f are no of decimal points
 print(f"Price 3 is {round(price1,3)} Rs.")
+# this will multiplay 
 print()
 
 print(f"Price 1 is {price1:10} Rs.")

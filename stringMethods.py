@@ -1,11 +1,11 @@
 # # String Methods
 
-# name = input("Enter your full name: ")
+name = input("Enter your full name: ")
 # result  = len(name)
 # print(result)
 # # finding first occurence of character
-# result2 = name.find("e")
-# print(result2)
+result2 = name.find("e")
+print(result2)
 # # finding last occurence of character so we use reversefind
 # result3 =  name.rfind("e")
 # print(result3)
@@ -25,6 +25,6 @@
 
 phone_num = input("Enter your phone number: ")
 print(phone_num.count("9"))
-print(phone_num.replace("1","2"))
-print(phone_num.replace("-",""))
-print(phone_num.replace("-"," "))
+# print(phone_num.replace("1","2"))
+# print(phone_num.replace("-",""))
+# print(phone_num.replace("-"," "))

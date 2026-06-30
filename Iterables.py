@@ -26,7 +26,7 @@ for fruit in fruits:
 # STRING
 name = "Oleti Veera Lakshmi"
 
-for character in name:
+for character in reversed(name):
     print(character, end=" ")
 print()
 
@@ -42,4 +42,4 @@ for value in my_dictionary.values():
 print()
 
 for key,value in my_dictionary.items():
-    print(f"{key} : {value}")
+    print(f"{key}:{value}")

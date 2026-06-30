@@ -11,7 +11,7 @@
 
 
 item = input("What do you want to buy: ")
-price =float(input("What is the price of you want to buy : "))
+price =bool(input("What is the price of you want to buy : "))
 quantity = int(input("How many items do you want : "))
 
 print(f"Your total bill is : {price * quantity}rupees")

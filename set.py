@@ -9,6 +9,7 @@ print("tomoto" in vegies)
 # print(vegies[0]) not work because set is unordered
 
 vegies.add("carrot")
+# sets use add and list use append
 print(vegies)
 
 vegies.remove("bittergourd")

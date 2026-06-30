@@ -9,7 +9,7 @@ def hello(greeting, title, first, last):
     # here title is Mrs. Mr. Miss. 
     print(f"{greeting} {title}{first} {last}")
     
-# positional arguments should follow keyword arguments
+# keyword arguments should follow positional arguments
 hello("Good Morning.",title="Miss.",last="oleti",first="veera lakshmi")
 
 # import time

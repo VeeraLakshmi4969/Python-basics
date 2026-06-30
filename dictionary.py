@@ -8,7 +8,11 @@ capitals = {"USA": "Washington D.C",
 # use dir(capitals) to know the all methods and attributes of dictionary
 # use help(capitals) to know the description of  all methods and attributes of dictionary
 
-# print(capitals.get("Japan"))
+print(capitals.get("India"))
+print(capitals.get("Japan"))
+print(capitals.get("New Delhi"))
+
+
 
 if capitals.get("Russia"):
     print("That capital exists.")

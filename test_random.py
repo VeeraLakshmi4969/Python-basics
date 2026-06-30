@@ -6,7 +6,7 @@ print(random.randint(1,100))
 # it returns random int with in the given range
 #print(dir(random))
 
-options = ("rock","paper","scissors")
+options = ["rock","paper","scissors"]
 option = random.choice(options)
 print(option)
 

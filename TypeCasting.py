@@ -1,5 +1,5 @@
-# Typecasting = the process of converting  a variable from one data type to another str(
-# ,int(),float(),bool()
+# Typecasting = the process of converting  a variable from one data type to another 
+# str(),int(),float(),bool()
 name = "Mahadev"
 age=3
 is_kid=True

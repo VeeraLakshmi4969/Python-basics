@@ -1,6 +1,6 @@
 # Arthmetic operations
 from math import floor
-from unittest import result
+# from unittest import result
 
 friends = 5
 # friends = friends +1
@@ -21,7 +21,7 @@ x = 3.14
 y = -4
 z = 5
 result = round(x)
-# it produce closest big (up) number
+# Rounds a number to the closest whole integer
 print(result)
 absaluteVal = abs(y)
 print(absaluteVal)
@@ -43,6 +43,10 @@ print(floor(x))
 # print(math.sqrt(x))
 # print(math.ceil(y))
 # # ceil is used to round point up
+
+# differnce between 
+# math.pow(x,y) return always a float value
+# pow(x,y) return integer value
 
 import math
 

@@ -16,4 +16,10 @@ def how_are_you(Iam):
 
 how_are_you("fine")
 
+Iam="fine"
+def how_are_you():
+    print(f"I am {Iam}" )
+
+how_are_you()
+
 
