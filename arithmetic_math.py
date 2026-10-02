@@ -20,6 +20,11 @@ friends = 5
 x = 3.14
 y = -4
 z = 5
+  
+  
+  
+  
+  
 result = round(x)
 # Rounds a number to the closest whole integer
 print(result)

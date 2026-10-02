@@ -31,7 +31,7 @@ print(fruits)
 # print(fruits)
 print(fruits.sort()) 
 
-fruits.reverse()
+print(fruits.reverse())
 print(fruits)
 
 # fruits.clear()
@@ -39,7 +39,7 @@ print(fruits)
 
 print(fruits.index("apple"))
 print(fruits.count("banana"))
-# print(dir(fruits))
+print(dir(fruits))
 # here dir refers to directory these are the operation(methods and attributes) that we can perform on that type of date
 # print(help(fruits))
 # provide description for methods and attributes

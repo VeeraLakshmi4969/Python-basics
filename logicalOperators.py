@@ -11,6 +11,7 @@
 
 # if temp>35 or temp<10 or is_raining:
 #     print("The Outdoor event is cancelled")
+
 # else:
 #     print("The outdoor event is still scheduled. Come fast!")
 

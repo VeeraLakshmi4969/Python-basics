@@ -23,7 +23,7 @@ print(stud2.passout)
 print(Student.passout)
 
 # we can call class variables by using class also
-print(Student.numOfstud)
+print(stud2.numOfstud)
 
 print(f"My graduating class of {Student.class_year} has {Student.numOfstud}")
 print(stud1.name,stud2.name,stud3.name)

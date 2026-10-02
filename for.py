@@ -21,6 +21,6 @@ for x in credit_card:
 for x in range(1,21):
     if x==10:
         continue
-    # else:
-    #     print(x)
-print(x)
+    else:
+        print(x)
+# print(x)

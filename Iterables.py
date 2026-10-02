@@ -33,9 +33,12 @@ print()
 # DICTIONARIES
 my_dictionary = {'A':1, 'B':2, 'C':3, 'D':4}
 
-for key in my_dictionary:
-    print(key, end=" ")
+for k in my_dictionary:
+    print(k, end=" ")
 print()
+
+
+
 
 for value in my_dictionary.values():
     print(value, end=" ")

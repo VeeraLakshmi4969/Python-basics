@@ -14,3 +14,7 @@ print(vegies)
 
 vegies.remove("bittergourd")
 print(vegies)
+vegies.pop()
+print(vegies)
+vegies.pop()
+print(vegies)

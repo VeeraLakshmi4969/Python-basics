@@ -3,11 +3,11 @@
  
  
 def hello(greeting, title, first, last):
-    first = first.title()
+    first = first
     last = last.title()
-    title = title.capitalize()
+    title = title
     # here title is Mrs. Mr. Miss. 
-    print(f"{greeting} {title}{first} {last}")
+    print(f"{greeting} {title.capitalize()}{first.title()} {last}")
     
 # keyword arguments should follow positional arguments
 hello("Good Morning.",title="Miss.",last="oleti",first="veera lakshmi")
@@ -17,7 +17,7 @@ hello("Good Morning.",title="Miss.",last="oleti",first="veera lakshmi")
 #     print(x)
 #     time.sleep(1)
 
-# print("1","2","3","4","5",sep="^")
+print("1","2","3","4","5",sep="^")
 
 def get_phone(country, area, first, last):
     return f"{country}-{area}-{first}-{last}"

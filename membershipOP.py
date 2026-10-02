@@ -13,13 +13,13 @@
     
 # # EXAMPLE 2
 
-# students = {"Mahadev","Nani","Srinu","Ramu","Nagur","Maha"}
+students = {"Mahadev","Nani","Srinu","Ramu","Nagur","Maha"}
 
-# student = input("Enter student name that you want to search: ")
+student = input("Enter student name that you want to search: ").capitalize()
 # student = student.capitalize()
-
-# if student in students:
-#     print(f"{student} was found.")
+print(student)
+if student in students:
+    print(f"{student} was found.")
 # else:
 #      print(f"{student} was not found.")
      
