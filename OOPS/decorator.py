@@ -1,4 +1,5 @@
-# Decorator = A function that extends the behaviour of another function
+# Decorator = Decorators in Python are tools that allow you to modify or extend the behavior of a function without changing its actual source code.
+# A function that extends the behaviour of another function
 #  without modifying the base function
 # Pass the base function as an argument to the decorator
 

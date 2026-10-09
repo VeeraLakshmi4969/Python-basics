@@ -1,5 +1,5 @@
 import csv
-path = "output.csv"
+path = "C:/Users/NANI/Desktop/Python/output.csv"
 data = [["Name","age","role"],
         ["Nani",20,"Student"],
         ["Maha",25,"IAS"],

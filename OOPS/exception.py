@@ -13,4 +13,5 @@ except ValueError:
     print("Enter number only")
 except Exception:
     print("Something went wrong")
-    
+finally:
+    print("It doesnot bother about exception it  will definatly execute")
